@@ -18,7 +18,7 @@ ventana.title("el boton mas pro ")
 ventana.geometry("600x400") 
 
 
-boton = tk.Button(ventana, text="click si no sos gay", command=mover_boton, bg="blue", fg="white", font=("Arial", 14), width=20, height=3)
+boton = tk.Button(ventana, text="click", command=mover_boton, bg="blue", fg="white", font=("Arial", 14), width=20, height=3)
 boton.place(x=100, y=150)  
 
 
